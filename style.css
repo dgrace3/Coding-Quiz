@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+#one_div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#two_div {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    border-color: blueviolet;
+    text-align: left;
+}
+main {
+    margin: 0 auto;
+    text-align: center;  
+    width: 30%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+
